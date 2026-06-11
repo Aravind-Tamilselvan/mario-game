@@ -7,3 +7,7 @@ steps:
 images:
   - 'us-central1-docker.pkg.dev/civic-pulsar-499104-p6/my-docker-repo/mario-game:$COMMIT_SHA'
 
+options:
+  logging: NONE
+
+
